@@ -1,0 +1,1183 @@
+/* ================================================================
+                        common css part start
+=================================================================== */
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.clr{
+    clear: both;
+}
+/* ================================================================
+                        common part end
+=================================================================== */
+/* ================================================================
+                        nav-part start
+=================================================================== */
+
+#nav-part{
+    width: 100%;
+    background: #fbdfe6;
+    position: fixed;
+    z-index: 999;
+}
+
+#nav-part .logo{
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+}
+
+#nav-part .nav-item{
+    width: 69%;
+    float: left;
+}
+
+#nav-part .logo img{
+    cursor: pointer;
+}
+
+#nav-part .nav-item ul{
+    text-align: center;
+}
+
+#nav-part .nav-item ul li a{
+    margin: 35px 40px 35px 0;
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .4s;
+}
+
+#nav-part .nav-item ul li a:hover{
+    color: #d50a51;
+}
+
+#nav-part .login{
+    width: 16%;
+    float: left;
+}
+
+#nav-part .login a{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    border: 2px solid #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    margin-top: 22px;
+    transition: .4s;
+}
+
+#nav-part .login a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ================================================================
+                        nav-part  end
+=================================================================== */
+/* ================================================================
+                        banner-part  start
+=================================================================== */
+
+#banner-part{
+    width: 100%;
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .left{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+
+#banner-part .left img{
+    width: 570px;
+}
+
+#banner-part .right{
+    width: 50%;
+    float: left;
+    padding-top: 220px;
+    text-align: center;
+}
+
+#banner-part .right h3{
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: -36px;
+}
+
+#banner-part .right h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#banner-part .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    margin-left: 17px;
+    width: 548px;
+}
+
+#banner-part .right a{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    border: 2px solid #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    transition: .4s;
+}
+
+#banner-part .right a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ================================================================
+                        banner-part  end
+=================================================================== */
+/* ================================================================
+                        about-part  start
+=================================================================== */
+
+#about-part{
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+#about-part .left{
+    width: 50%;
+    float: left;
+}
+
+#about-part .right{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#about-part .right .love{
+    padding: 20px 0 0 50px;
+}
+
+#about-part .right .love img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about-part .right .love h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#about-part .right .love h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#about-part .right .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 540px;
+}
+
+/* ================================================================
+                        about-part  end
+=================================================================== */
+/* ================================================================
+                        gift-part  start
+=================================================================== */
+
+#gift{
+    width: 100%;
+    background: #fff6da;
+    margin-top: 95px;
+}
+
+#gift .left{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#gift .left .love{
+    padding: 20px 0 0 56px;
+    margin-top: 70px;
+}
+
+#gift .left .love img{
+    position: absolute;
+    color: #212529;
+    top: 72px;
+    left: 0;
+}
+
+#gift .left .love h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#gift .left .love h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#gift .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 636px;
+}
+
+#gift .left a{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    transition: .4s;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+#gift .left a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+#gift .right{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#gift .right img{
+    position: absolute;
+    top: -138px;
+    left: 35px;
+    width: 595px;
+}
+
+/* ================================================================
+                        gift-part  end
+=================================================================== */
+/* ================================================================
+                        couple-part  start
+=================================================================== */
+
+#couple{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#couple .left{
+    width: 50%;
+    float: left;
+}
+
+#couple .left img{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+#couple .right{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#couple .right .love{
+    padding: 20px 50px 0 0;
+    text-align: right;
+}
+
+#couple .right .love img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#couple .right .love h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#couple .right .love h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#couple .right .text{
+    text-align: right;
+}
+
+#couple .right .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 563px;
+}
+
+#couple .right .text a{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    transition: .4s;
+    text-transform: capitalize;
+    margin-bottom: 95px;
+}
+
+#couple .right .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ================================================================
+                        couple-part  end
+=================================================================== */
+/* ================================================================
+                        offer-part  start
+=================================================================== */
+
+#offer{
+    width: 100%;
+    background: #fef7fa;
+    margin-top: 100px;
+    padding-top: 70px;
+}
+
+#offer .left{
+    width: 33%;
+    float: left;
+    position: relative;
+}
+
+#offer .left .love{
+    padding: 20px 0 0 56px;
+}
+
+#offer .left .love img{
+    position: absolute;
+    color: #212529;
+    top: 0px;
+    left: 0;
+}
+
+#offer .left .love h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#offer .left .love h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#offer .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 360px;
+}
+
+
+#offer .middle{
+    width: 30%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+#offer .middle .music{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#offer .middle .dinner{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#offer .right{
+    width: 30%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+#offer .right .gift{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#offer .right .drink{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#offer .m-r h3{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+#offer .m-r p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+#offer .m-r .music:hover{
+    background: #f1f1f1;
+    border-color: #d50a51;
+    border-right: 3px solid #d50a51;
+    -webkit-box-shadow: 0px 0px 6px 1px rgb(183, 177, 183);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+    box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+}
+
+#offer .m-r .dinner:hover{
+    background: #f1f1f1;
+    border-color: #d50a51;
+    border-right: 3px solid #d50a51;
+    -webkit-box-shadow: 0px 0px 6px 1px rgb(183, 177, 183);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+    box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+}
+
+#offer .m-r .drink:hover{
+    background: #f1f1f1;
+    border-color: #d50a51;
+    border-right: 3px solid #d50a51;
+    -webkit-box-shadow: 0px 0px 6px 1px rgb(183, 177, 183);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+    box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+}
+
+#offer .m-r .gift:hover{
+    background: #f1f1f1;
+    border-color: #d50a51;
+    border-right: 3px solid #d50a51;
+    -webkit-box-shadow: 0px 0px 6px 1px rgb(183, 177, 183);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+    box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+}
+
+/* ================================================================
+                        offer-part  end
+=================================================================== */
+/* ================================================================
+                        capture-part  start
+=================================================================== */
+
+#capture{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#capture .l-m img{
+    width: 100%;
+    height: 400px;
+}
+
+#capture .left{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+
+#capture .left .gallary01{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+#capture .left .gallary02{
+    width: 100%;
+    height: 400px;
+}
+
+#capture .middle{
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+
+#capture .middle .gallary03{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+#capture .middle .gallary04{
+    width: 100%;
+    height: 400px;
+}
+
+
+#capture .l-m .gallary01{
+    position: relative;
+}
+
+#capture .l-m .gallary01 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b3;
+    box-sizing: border-box;
+    transition: .6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#capture .l-m .gallary01:hover .overlay{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#capture .l-m .gallary02{
+    position: relative;
+}
+
+#capture .l-m .gallary02 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b3;
+    box-sizing: border-box;
+    transition: .6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#capture .l-m .gallary02:hover .overlay{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#capture .l-m .gallary03{
+    position: relative;
+}
+
+#capture .l-m .gallary03 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b3;
+    box-sizing: border-box;
+    transition: .6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#capture .l-m .gallary03:hover .overlay{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#capture .l-m .gallary04{
+    position: relative;
+}
+
+#capture .l-m .gallary04 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000b3;
+    box-sizing: border-box;
+    transition: .6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#capture .l-m .gallary04:hover .overlay{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#capture .l-m .overlay{
+    position: relative;
+}
+
+#capture .l-m .overlay .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#capture .l-m .overlay .icon i{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 20px 0 0;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#capture .l-m .overlay .icon i:hover{
+    background: #d50a51;
+    border-color: #d50a51;
+}
+
+#capture .l-m .overlay .icon-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#capture .l-m .overlay .icon-bottom h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#capture .l-m .overlay .icon-bottom p{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+
+#capture .l-m .overlay .icon-bottom i{
+    font-size: 13px;
+    margin: 0 2px 0 7px;
+    color: #fff;
+}
+
+#capture .right{
+    width: 33%;
+    float: left;
+    position: relative;
+}
+
+#capture .right .love{
+    padding: 20px 50px 0 0;
+    text-align: right;
+}
+
+#capture .right .love img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#capture .right .love h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#capture .right .love h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#capture .right .text{
+    text-align: right;
+}
+
+#capture .right .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 358px;
+}
+
+#capture .right .text a{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d50a51;
+    background-color: transparent;
+    transition: .4s;
+    text-transform: capitalize;
+    margin-bottom: 95px;
+}
+
+#capture .right .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ================================================================
+                        capture-part  end
+=================================================================== */
+/* ================================================================
+                        counter-part  start
+=================================================================== */
+
+#counter{
+    width: 100%;
+    height: 300px;
+    background: url(../images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    margin: 100px 0;
+}
+
+#counter .text{
+    width: 100%;
+    height: 300px;
+}
+
+#counter .text .day{
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#counter .text .hour{
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#counter .text .minute{
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#counter .text .second{
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#counter .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #d50a51;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+#counter .text .hour,.second{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#counter .text .second{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#counter .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* ================================================================
+                        counter-part  end
+=================================================================== */
+/* ================================================================
+                        slider-part  start
+=================================================================== */
+
+#slider-part{
+    width: 100%;
+    margin: 100px 0;
+}
+
+#slider-part .container{
+    position: relative;
+}
+
+#slider-part .container .left{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -40px;
+    left: -24px;
+}
+
+#slider-part .container .right{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 268px;
+    left: 1097px;
+    transform: rotate(180deg);
+}
+
+#slider-part .slider .slider-01{
+    width: 570px;
+    height: 296px;
+    background: #fffae2;
+    padding: 40px 30px 20px 30px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    position: relative;
+}
+
+#slider-part .slider .slider-01 p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+}
+
+#slider-part .slider .slider-01 img{
+    display: inline-block;
+    margin-top: 15px
+}
+
+#slider-part .slider .slider-01 .name{
+    position: absolute;
+    left: 150px;
+    top: 190px;
+}
+
+#slider-part .slider .slider-01 h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+#slider-part .slider .slider-01 .title{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    line-height: 1px;
+}
+
+.prev{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    cursor: pointer;
+    transition: .4s;
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.next{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    cursor: pointer;
+    transition: .4s;
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next:hover{
+    background: #d50a51;
+    color: #fff;
+    border-color: #d50a51;
+}
+
+.prev:hover{
+    background: #d50a51;
+    color: #fff;
+    border-color: #d50a51;
+}
+
+/* ================================================================
+                        slider-part  end
+=================================================================== */
+/* ================================================================
+                        footer-part  start
+=================================================================== */
+
+footer{
+    background: url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    padding: 80px 0 30px;
+    box-sizing: border-box;
+}
+
+footer .container{
+    position: relative;
+    text-align: center;
+}
+
+footer .container img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: inline-block;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li .text{
+    text-align: left;
+    display: inline-block;
+    width: 230px;
+}
+
+footer ul li .icon{
+    text-align: left;
+    float: left;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 100px 40px 0;
+}
+
+footer ul li .location{
+    width: 50px;
+    height: 50px;
+    background: #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+footer ul li p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    margin: 4px 0 6px 20px;
+    cursor: pointer;
+}
+
+footer h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+footer a{
+    margin-right: 10px;
+}
+
+footer a .icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+
+footer a .icon:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ================================================================
+                        footer-part  end
+=================================================================== */
+/* ================================================================
+                        copy-part  start
+=================================================================== */
+
+#copy-part{
+    padding: 20px 0;
+    background: #fffae2;
+    text-align: center;
+}
+
+#copy-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#copy-part a{
+    color: #d50a51;
+}
+
+/* ================================================================
+                        copy-part  end
+=================================================================== */
+
